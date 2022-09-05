@@ -1,5 +1,5 @@
 from utils.set_bot_commands import set_default_commands
-from loader import dp
+
 
 async def on_startup(dp):
     import filters
